@@ -19,25 +19,25 @@ public class Ejercicio4M1C1 {
 
         scanner.close();
 
-        Suma(entero1, entero2, entero3, entero4);
-        Resta(entero1, entero2, entero3, entero4);
-        Multiplicacion(entero1, entero2, entero3, entero4);
-        Division(entero1, entero2, entero3, entero4);
+        suma(entero1, entero2, entero3, entero4);
+        resta(entero1, entero2, entero3, entero4);
+        multiplicacion(entero1, entero2, entero3, entero4);
+        division(entero1, entero2, entero3, entero4);
     }
 
-    static void Suma(int w, int x, int y, int z) {
+    static void suma(int w, int x, int y, int z) {
         System.out.println("La suma de los 4 numeros es: " + (w + x + y + z));
     }
 
-    static void Resta(int w, int x, int y, int z) {
+    static void resta(int w, int x, int y, int z) {
         System.out.println("La resta de los 4 numeros es: " + (w - x - y - z));
     }
 
-    static void Multiplicacion(int w, int x, int y, int z) {
+    static void multiplicacion(int w, int x, int y, int z) {
         System.out.println("La multiplicación de los 4 numeros es: " + (w * x * y * z));
     }
 
-    static void Division(int w, int x, int y, int z) {
+    static void division(int w, int x, int y, int z) {
         System.out.println("La División de los 4 numeros es: " + (w / x / y / z));
     }
 }
