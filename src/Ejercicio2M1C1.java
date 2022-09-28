@@ -6,13 +6,13 @@ public class Ejercicio2M1C1 {
         var scanner = new Scanner(System.in);
 
         System.out.print("Ingresar string1: ");
-        var string1 =  scanner.nextLine();
+        var string1 = scanner.nextLine();
 
         System.out.print("Ingresar string2: ");
-        var string2 =  scanner.nextLine();
+        var string2 = scanner.nextLine();
 
         System.out.print("Ingresar string3: ");
-        var string3 =  scanner.nextLine();
+        var string3 = scanner.nextLine();
 
         scanner.close();
 
@@ -20,7 +20,8 @@ public class Ejercicio2M1C1 {
 
         System.out.println("La concatenación de los strings es: " + concatenar);
     }
-    static String concatenarStrings (String x, String y, String z){
-        return x + " " +  y + " " + z + " " + "bota vieja";
+
+    static String concatenarStrings(String x, String y, String z) {
+        return x + " " + y + " " + z + " " + "bota vieja";
     }
 }

@@ -8,17 +8,14 @@ public class Ejercicio3M1C1 {
         System.out.print("Ingresa un numero entero: ");
         var entero = scanner.nextInt();
 
-        var numeroEsPar = esPar(entero);
-
         scanner.close();
+
+        var numeroEsPar = esPar(entero);
 
         System.out.println("El numero ingresado es par?: " + numeroEsPar);
     }
-    static boolean esPar (int numero){
-        if (numero % 2 == 0){
-            return true;
-        }else{
-            return false;
-        }
+
+    static boolean esPar(int numero) {
+        return (numero % 2 == 0);
     }
 }

@@ -15,7 +15,7 @@ public class Ejercicio5M1C1 {
         System.out.println("El peso es: " + calcular + " " + "kg");
     }
 
-    static double calcularPeso (double x){
+    static double calcularPeso(double x) {
         return x * 9.81;
     }
 }
